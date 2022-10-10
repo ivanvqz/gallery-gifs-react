@@ -5,7 +5,7 @@ import GifGrid from './components/GifGrid'
 const GifExpertApp = () => {
 
     // Hook para mantener el estado de las categorías
-    const [categories, setCategories] = useState([ 'Pokemon', 'Dragon ball' ])
+    const [categories, setCategories] = useState([ '' ])
 
     const onAddCategory = ( newCategory ) => {
         if(categories.includes(newCategory)) return;        //Agregar una categoría

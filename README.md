@@ -7,3 +7,10 @@ npm install - Para instalar node
 
 ## Ejecutar la app
 npm run dev
+
+## definicion de useState
+Hook de reac que permite disparar efectos secundarios. Proceso que se ejecuta cuando algo sucede en la app. Ejemplo: cuando se hace click en un boton, se ejecuta una funcion.
+useEffect( () => {
+
+    }, [])
+El array indica que solo se va a ejecutar una vez cuando el componente se renderiza por primera vez.

@@ -14,3 +14,5 @@ useEffect( () => {
 
     }, [])
 El array indica que solo se va a ejecutar una vez cuando el componente se renderiza por primera vez.
+
+- git checkout -- . para deshacer los cambios en el archivo

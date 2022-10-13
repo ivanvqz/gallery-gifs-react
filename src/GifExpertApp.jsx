@@ -14,8 +14,8 @@ const GifExpertApp = () => {
     } 
 
     return (
-        <>
-            <h1>Gify App</h1>
+        <div className='container'>
+            <h1 className="center background-clip">Gify App</h1>
 
             <AddCategory 
                 // setCategories={ setCategories } 
@@ -31,7 +31,7 @@ const GifExpertApp = () => {
                     ))
             }
 
-        </>
+        </div>
     )
 }
 
